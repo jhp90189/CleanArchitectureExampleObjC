@@ -1,0 +1,64 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "0a8749c09b5f02b565523512934460f917de8fe8d6bf164f2b86ebeeaa3c2e00"
+    }
+  ],
+  "containerPath" : "/Users/jainpate/Downloads/CleanArchitectureExampleObjC-master/CleanArchitectureExampleObjC.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/jainpate/Downloads/CleanArchitectureExampleObjC-master/target/DerivedData/CleanArchitectureExampleObjC/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/jainpate/Downloads/CleanArchitectureExampleObjC-master/target/DerivedData/CleanArchitectureExampleObjC/Build/Products",
+      "derivedDataPath" : "/Users/jainpate/Downloads/CleanArchitectureExampleObjC-master/target/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/jainpate/Downloads/CleanArchitectureExampleObjC-master/target/DerivedData/CleanArchitectureExampleObjC/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jainpate/Downloads/CleanArchitectureExampleObjC-master/target/DerivedData/CleanArchitectureExampleObjC/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/jainpate/Downloads/CleanArchitectureExampleObjC-master/target/DerivedData/CleanArchitectureExampleObjC/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone15,4",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.0.1",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone15,4",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/jainpate/Downloads/CleanArchitectureExampleObjC-master/target/DerivedData/CleanArchitectureExampleObjC/Build/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "8B05D98D-01AD-40DC-A796-8B51552091E0",
+          "TARGET_DEVICE_MODEL" : "iPhone15,4",
+          "TARGET_DEVICE_OS_VERSION" : "17.0.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

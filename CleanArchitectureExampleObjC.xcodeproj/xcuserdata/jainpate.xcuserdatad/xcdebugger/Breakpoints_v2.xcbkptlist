@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B05C8832-8F43-43C1-9AB2-426F4B643F75"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A5CCBE8-94A9-491A-AE08-DC3AE89B9936"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitectureExampleObjCTests/MockArticleProvider.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "-fetchArticles:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C07C218B-539B-40FF-9CE5-8DB9107ECDAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitectureExampleObjCTests/MockAppDependeciesContainer.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "-articleProvider"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63B7A058-2A5A-4F32-802E-08834950F5A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitectureExampleObjC/UI Layer/Utility/AsyncImageDownloader.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-startDownload"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9426DDB5-B0BE-40BB-81C8-51D2509B7DCD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanArchitectureExampleObjC/UI Layer/Utility/AsyncImageDownloader.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-startDownload"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9426DDB5-B0BE-40BB-81C8-51D2509B7DCD - 98dc01361b7b4ab5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__37-[AsyncImageDownloader startDownload]_block_invoke"
+                  moduleName = "CleanArchitectureExampleObjC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jainpate/Downloads/CleanArchitectureExampleObjC-master/CleanArchitectureExampleObjC/UI%20Layer/Utility/AsyncImageDownloader.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "230">
+               </Location>
+               <Location
+                  uuid = "9426DDB5-B0BE-40BB-81C8-51D2509B7DCD - 3931262a3658671a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__37-[AsyncImageDownloader startDownload]_block_invoke_2"
+                  moduleName = "CleanArchitectureExampleObjC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jainpate/Downloads/CleanArchitectureExampleObjC-master/CleanArchitectureExampleObjC/UI%20Layer/Utility/AsyncImageDownloader.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

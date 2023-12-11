@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'CleanArchitectureExampleObjCTests' in project 'CleanArchitectureExampleObjC'
+➜ Explicit dependency on target 'CleanArchitectureExampleObjC' in project 'CleanArchitectureExampleObjC'
+Target 'CleanArchitectureExampleObjC' in project 'CleanArchitectureExampleObjC' (no dependencies)
