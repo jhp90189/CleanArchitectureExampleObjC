@@ -65,6 +65,7 @@
                 <outlet property="articleDescription" destination="ju9-pe-Vdm" id="8z1-eL-gh3"/>
                 <outlet property="articleImageView" destination="eXp-ny-ibk" id="4Lp-os-Mje"/>
                 <outlet property="publishedDate" destination="U9R-H4-u6i" id="cNa-RP-5kt"/>
+                <outlet property="textStackView" destination="zhq-Gf-BG2" id="LnJ-4u-VeS"/>
                 <outlet property="title" destination="pkx-fA-bcS" id="SY7-47-o7O"/>
             </connections>
             <point key="canvasLocation" x="155.07246376811597" y="145.64732142857142"/>

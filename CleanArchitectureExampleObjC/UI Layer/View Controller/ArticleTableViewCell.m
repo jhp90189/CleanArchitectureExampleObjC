@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *title;
 @property (weak, nonatomic) IBOutlet UILabel *publishedDate;
 @property (weak, nonatomic) IBOutlet UILabel *articleDescription;
+@property (weak, nonatomic) IBOutlet UIStackView *textStackView;
 
 
 @end
@@ -42,9 +43,11 @@
         NSLog(@"CharacterTableViewCell can only be set up using a Character class object!");
         return;
     }
+    [_textStackView setCustomSpacing:3 afterView:title];
+    [_textStackView setCustomSpacing:6 afterView:publishedDate];
     NSObject<Article> *articleObject = (NSObject<Article> *) article;
     title.text = articleObject.title;
-    publishedDate.text = articleObject.publishedAt;
+    publishedDate.text = [self formattedDate:articleObject.publishedAt];
     articleDescription.text = (articleObject.articleDescription != nil) ? articleObject.articleDescription : @"";
     if (articleObject.urlToImage != NULL) {
         articleImageView.image = [UIImage imageNamed:@"default"];
@@ -55,6 +58,14 @@
               NSLog(@"Failed to download image due to %@!", error);
         }] startDownload];
     }
+}
+
+- (NSString *)formattedDate: (NSString *)date {
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'Z'"];
+    NSDate *convertedDate = [dateFormat dateFromString:date];
+    [dateFormat setDateFormat:@"dd MMMM, yyyy HH:mm"];
+    return [dateFormat stringFromDate:convertedDate];
 }
 
 @end
